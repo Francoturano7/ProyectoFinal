@@ -323,7 +323,7 @@ font-family: 'Roboto', sans-serif;
 .parallax{
   width: 100%;
   height:100%;
-  background: url(./assets/bordo1.jpeg);
+  background: url(../assets/bordo1.jpeg);
   background-size: 100% 200%;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -975,27 +975,11 @@ display:inline;
 }
 
 /* boostrap*/
-.navbar navbar-expand-lg{
-  text-decoration: none;
-  color: #d9d9d9;
-}
 .navbar-brand img{
   max-width:100px ;
 }
-.navbar navbar-expand-lg bg-dark navbar-dark a {
-  
-  color: white;
-}
-.navbar navbar-expand-lg bg-dark navbar-dark nav {
-  background-color:rgb(131, 0, 0);
-  color: white;
 
-}
 
-#navbarTogglerDemo03{
-  background-color:rgb(131, 0, 0) ;
-  color: white;
-}
 .slide{
   margin-top: 5px;
   ;
@@ -1032,9 +1016,6 @@ display:inline;
 
 }
 
-.navbar-nav me-auto mb-2 mb-lg-0 ul{
-  justify-content: end;
-}
 .colorB{
   color: #d9d9d9;
 }
