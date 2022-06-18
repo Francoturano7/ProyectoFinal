@@ -2,7 +2,7 @@
 .cabecera{
     overflow: hidden;
     background:$crema ;
-    &_bounce-top{
+    &__img{
     display: block;   
     margin: auto;
     width: 40vh;
@@ -94,7 +94,7 @@
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
     opacity: 1;}}
-    &_text-focus-in_h1{  
+    &__h1{  
     text-align: center;
     color: rgb(255, 253, 253);
     font-size: 25px;
@@ -103,16 +103,16 @@
     margin: 30px;
     padding:25px;
     }
-    &_text-focus-in_h1:hover{
+    &__h1:hover{
         font-size: 28px;
     }
-    &_text-focus-in_h1::before {
+    &__h1::before {
         content: "~ ~ ";
     }
-    &_text-focus-in_h1::after {
+    &__h1::after {
       content: " ~ ~";
     }
-    &_text-focus-in_h3{
+    &__h3{
         text-align: center;
         color: rgba(255, 253, 253, 0.946);
         font-size: 20px;
@@ -121,10 +121,10 @@
     margin: 30px;
     padding:17px;
     }
-    &_text-focus-in_h3:hover{
+    &__h3:hover{
       font-size: 28px;
       }
-      &_text-focus-in_h3::after {
+      &__h3::after {
         content:" !!";
       }
        }

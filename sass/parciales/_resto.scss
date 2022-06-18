@@ -23,7 +23,7 @@
   .nav-enlace:hover{
     background: #000;}
   
-  .menuH{
+    .menu__desp{
     display: flex;
     justify-content: space-around;
     background: #333;
@@ -33,7 +33,7 @@
   
    @media screen and (max-width:768px)  
   {
-    .menuH {
+    .menu__desp {
       flex-direction: column;
       text-align: center;
    }
@@ -987,17 +987,7 @@
         font-size: 20px;
       }
   
-  /*pseudoElementos*/
   
-      h3.text-focus-in::after {
-        content:" !!";
-      }
-      h1.text-focus-in::before {
-        content: "~ ~ ";
-      }
-      h1.text-focus-in::after {
-        content: " ~ ~";
-      }
       /*capaSuaveAntesDelTexto*/
       img.carousel-inner::after{
         content:" ";
@@ -1067,7 +1057,7 @@
     .servicion__title{
         text-align: center;
     }
-  h2.sectionTitle{
+    h2.servicios__title{
     text-align: center;
     height: 100px;
     width: 100%;

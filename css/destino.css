@@ -12,7 +12,7 @@ body {
 .cabecera {
   overflow: hidden;
   background: #d9d9d9; }
-  .cabecera_bounce-top {
+  .cabecera__img {
     display: block;
     margin: auto;
     width: 40vh;
@@ -106,7 +106,7 @@ body {
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
     opacity: 1; } }
-  .cabecera_text-focus-in_h1 {
+  .cabecera__h1 {
     text-align: center;
     color: #fffdfd;
     font-size: 25px;
@@ -114,13 +114,13 @@ body {
     background: #830000;
     margin: 30px;
     padding: 25px; }
-  .cabecera_text-focus-in_h1:hover {
+  .cabecera__h1:hover {
     font-size: 28px; }
-  .cabecera_text-focus-in_h1::before {
+  .cabecera__h1::before {
     content: "~ ~ "; }
-  .cabecera_text-focus-in_h1::after {
+  .cabecera__h1::after {
     content: " ~ ~"; }
-  .cabecera_text-focus-in_h3 {
+  .cabecera__h3 {
     text-align: center;
     color: rgba(255, 253, 253, 0.946);
     font-size: 20px;
@@ -128,9 +128,9 @@ body {
     background: #830000;
     margin: 30px;
     padding: 17px; }
-  .cabecera_text-focus-in_h3:hover {
+  .cabecera__h3:hover {
     font-size: 28px; }
-  .cabecera_text-focus-in_h3::after {
+  .cabecera__h3::after {
     content: " !!"; }
 
 /*este es el menu de hamburguesa*/
@@ -156,7 +156,7 @@ body {
 .nav-enlace:hover {
   background: #000; }
 
-.menuH {
+.menu__desp {
   display: flex;
   justify-content: space-around;
   background: #333;
@@ -164,7 +164,7 @@ body {
   border: 1px solid black; }
 
 @media screen and (max-width: 768px) {
-  .menuH {
+  .menu__desp {
     flex-direction: column;
     text-align: center; }
   .nav-enlace {
@@ -956,16 +956,6 @@ h3.text-focus-in:hover {
 a.parahov:hover {
   font-size: 20px; }
 
-/*pseudoElementos*/
-h3.text-focus-in::after {
-  content: " !!"; }
-
-h1.text-focus-in::before {
-  content: "~ ~ "; }
-
-h1.text-focus-in::after {
-  content: " ~ ~"; }
-
 /*capaSuaveAntesDelTexto*/
 img.carousel-inner::after {
   content: " ";
@@ -1023,7 +1013,7 @@ img.carousel-inner::after {
 .servicion__title {
   text-align: center; }
 
-h2.sectionTitle {
+h2.servicios__title {
   text-align: center;
   height: 100px;
   width: 100%;
