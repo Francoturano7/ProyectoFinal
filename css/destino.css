@@ -405,12 +405,12 @@ body {
 /*esto es el parallax*/
 .parallax {
   width: 100%;
-  height: 100%;
+  height: 10vh;
   background: url(../assets/bordo1.jpeg);
   background-size: 100% 200%;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  overflow: visible;
+  overflow: hidden;
   border-top: 3px solid black;
   border-bottom: 3px solid black; }
 
@@ -422,7 +422,7 @@ body {
   text-decoration: none;
   background: #000;
   color: #fff;
-  margin: 50px auto 50px auto; }
+  margin: 20px auto 20px auto; }
 
 .parallax a:hover {
   background: #830000; }
@@ -929,7 +929,7 @@ body {
 @media screen and (max-width: 768px) {
   .slide img {
     width: 100vh;
-    height: 20vh; } }
+    height: 40vh; } }
 
 /*
   .carousel-inner img{
