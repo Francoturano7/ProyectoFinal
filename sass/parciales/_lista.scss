@@ -1,0 +1,51 @@
+@import "./variables";
+
+.lista{width: 100%;
+    overflow:hidden;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    background: $fondoGris;
+    background: -moz-linear-gradient(90deg, rgba(33,32,32,1) 0%, rgba(72,74,73,1) 33%, rgba(72,74,73,1) 66%, rgba(33,32,32,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(33,32,32,1) 0%, rgba(72,74,73,1) 33%, rgba(72,74,73,1) 66%, rgba(33,32,32,1) 100%);
+    background: linear-gradient(90deg, rgba(33,32,32,1) 0%, rgba(72,74,73,1) 33%, rgba(72,74,73,1) 66%, rgba(33,32,32,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#212020",endColorstr="#212020",GradientType=1);
+    
+
+  &__menu{ 
+      width: 100%;
+      overflow:hidden;
+      display:inline;
+      text-align: center;
+    }
+    &__div{
+      background: $fondoGris;
+      background: -moz-linear-gradient(90deg, rgba(33,32,32,1) 0%, rgba(72,74,73,1) 33%, rgba(72,74,73,1) 66%, rgba(33,32,32,1) 100%);
+      background: -webkit-linear-gradient(90deg, rgba(33,32,32,1) 0%, rgba(72,74,73,1) 33%, rgba(72,74,73,1) 66%, rgba(33,32,32,1) 100%);
+      background: linear-gradient(90deg, rgba(33,32,32,1) 0%, rgba(72,74,73,1) 33%, rgba(72,74,73,1) 66%, rgba(33,32,32,1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#212020",endColorstr="#212020",GradientType=1);
+      width: 100%;
+      display:inline;
+      text-align: center;
+    }
+    &__img{
+       width: 50%;
+     }
+     &__h3{ 
+       overflow:hidden;
+       text-align: center;
+       background-color: $rojoFranbur;
+       color:$fondoBlanco;
+       padding: 7px;
+       margin: 0% 0% 0% 0%;
+     }
+     &__p{
+         overflow: hidden;
+       text-align: center;
+       color: $rojoFranbur;
+       background-color:$fondoBlanco;
+       padding: 7px 2%;
+       margin: 0% 0% ; 
+     }
+}

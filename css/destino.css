@@ -133,13 +133,12 @@ body {
   .cabecera__h3::after {
     content: " !!"; }
 
-/*este es el menu de hamburguesa*/
-.sectionH {
-  background: #212020;
-  background: -moz-linear-gradient(90deg, #212020 0%, #484a49 33%, #484a49 66%, #212020 100%);
-  background: -webkit-linear-gradient(90deg, #212020 0%, #484a49 33%, #484a49 66%, #212020 100%);
-  background: linear-gradient(90deg, #212020 0%, #484a49 33%, #484a49 66%, #212020 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#212020",endColorstr="#212020",GradientType=1); }
+.menu__desp {
+  display: flex;
+  justify-content: space-around;
+  background: #333;
+  padding: 10px;
+  border: 1px solid black; }
 
 .nav-enlace {
   overflow: hidden;
@@ -152,16 +151,8 @@ body {
   border-radius: 5%;
   text-decoration: none;
   text-align: center; }
-
-.nav-enlace:hover {
-  background: #000; }
-
-.menu__desp {
-  display: flex;
-  justify-content: space-around;
-  background: #333;
-  padding: 10px;
-  border: 1px solid black; }
+  .nav-enlace:hover {
+    background: #000; }
 
 @media screen and (max-width: 768px) {
   .menu__desp {
@@ -170,6 +161,53 @@ body {
   .nav-enlace {
     margin: 5px; } }
 
+.lista {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background: #212020;
+  background: -moz-linear-gradient(90deg, #212020 0%, #484a49 33%, #484a49 66%, #212020 100%);
+  background: -webkit-linear-gradient(90deg, #212020 0%, #484a49 33%, #484a49 66%, #212020 100%);
+  background: linear-gradient(90deg, #212020 0%, #484a49 33%, #484a49 66%, #212020 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#212020",endColorstr="#212020",GradientType=1); }
+  .lista__menu {
+    width: 100%;
+    overflow: hidden;
+    display: inline;
+    text-align: center; }
+  .lista__div {
+    background: #212020;
+    background: -moz-linear-gradient(90deg, #212020 0%, #484a49 33%, #484a49 66%, #212020 100%);
+    background: -webkit-linear-gradient(90deg, #212020 0%, #484a49 33%, #484a49 66%, #212020 100%);
+    background: linear-gradient(90deg, #212020 0%, #484a49 33%, #484a49 66%, #212020 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#212020",endColorstr="#212020",GradientType=1);
+    width: 100%;
+    display: inline;
+    text-align: center; }
+  .lista__img {
+    width: 50%; }
+  .lista__h3 {
+    overflow: hidden;
+    text-align: center;
+    background-color: #830000;
+    color: #fff;
+    padding: 7px;
+    margin: 0% 0% 0% 0%; }
+  .lista__p {
+    overflow: hidden;
+    text-align: center;
+    color: #830000;
+    background-color: #fff;
+    padding: 7px 2%;
+    margin: 0% 0%; }
+
+.nosotros {
+  width: 100%; }
+
+/*este es el menu de hamburguesa*/
 /*este es el cuerpo*/
 .slider {
   width: 100%; }
@@ -500,12 +538,6 @@ body {
   100% {
     opacity: 1; } }
 
-.headerMenu {
-  background: -moz-linear-gradient(90deg, #830000 7%, #830000 50%, #830000 92%);
-  background: -webkit-linear-gradient(90deg, #830000 7%, #830000 50%, #830000 92%);
-  background: linear-gradient(90deg, #830000 7%, #830000 50%, #830000 92%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#11c978",endColorstr="#0c804d",GradientType=1); }
-
 .color-change-2x {
   -webkit-animation: color-change-2x 2s linear infinite alternate both;
   animation: color-change-2x 2s linear infinite alternate both; }
@@ -530,10 +562,7 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#212020",endColorstr="#212020",GradientType=1); }
 
 /*esto es nosotros*/
-.logoNosotros {
-  overflow: hidden; }
-
-.sliderNosotros {
+.nosotros {
   width: 100%; }
 
 .acerca {
@@ -566,216 +595,6 @@ body {
   overflow: hidden;
   margin-bottom: 15px;
   padding: 10px; }
-
-.flexDire {
-  width: 100%;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: space-between; }
-
-.flexDire div {
-  background: #212020;
-  background: -moz-linear-gradient(90deg, #212020 0%, #484a49 33%, #484a49 66%, #212020 100%);
-  background: -webkit-linear-gradient(90deg, #212020 0%, #484a49 33%, #484a49 66%, #212020 100%);
-  background: linear-gradient(90deg, #212020 0%, #484a49 33%, #484a49 66%, #212020 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#212020",endColorstr="#212020",GradientType=1);
-  width: 100%;
-  display: inline;
-  text-align: center; }
-
-.flexDire img {
-  width: 50%; }
-
-.flexDire p {
-  overflow: hidden;
-  text-align: center;
-  color: #830000;
-  background-color: #fff;
-  padding: 7px 2%;
-  margin: 0% 0%; }
-
-.flexDire h3 {
-  overflow: hidden;
-  text-align: center;
-  background-color: #830000;
-  color: #fff;
-  padding: 7px;
-  margin: 0% 0% 0% 0%; }
-
-.flexDire1 {
-  width: 100%;
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between; }
-
-.flexDire1 div {
-  background: #212020;
-  background: -moz-linear-gradient(90deg, #212020 0%, #484a49 33%, #484a49 66%, #212020 100%);
-  background: -webkit-linear-gradient(90deg, #212020 0%, #484a49 33%, #484a49 66%, #212020 100%);
-  background: linear-gradient(90deg, #212020 0%, #484a49 33%, #484a49 66%, #212020 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#212020",endColorstr="#212020",GradientType=1);
-  width: 100%;
-  display: inline;
-  text-align: center; }
-
-.flexDire1 img {
-  width: 50%; }
-
-.flexDire1 p {
-  overflow: hidden;
-  text-align: center;
-  color: #830000;
-  background-color: #fff;
-  padding: 7px 2%;
-  margin: 0% 0%; }
-
-.flexDire1 h3 {
-  overflow: hidden;
-  text-align: center;
-  background-color: #830000;
-  color: #fff;
-  padding: 7px;
-  margin: 0% 0% 0% 0%; }
-
-.flexDire2 {
-  width: 100%;
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between; }
-
-.flexDire2 div {
-  background-color: #333;
-  width: 100%;
-  border: solid #333  2px;
-  display: inline;
-  text-align: center; }
-
-.flexDire2 img {
-  width: 50%; }
-
-.flexDire2 p {
-  overflow: hidden;
-  text-align: center;
-  color: #830000;
-  background-color: #fff;
-  padding: 7px 2%;
-  margin: 0% 0%; }
-
-.flexDire2 h3 {
-  overflow: hidden;
-  text-align: center;
-  background-color: #830000;
-  color: #fff;
-  padding: 7px;
-  margin: 0% 0% 0% 0%; }
-
-.flexDire3 {
-  width: 100%;
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between; }
-
-.flexDire3 div {
-  background-color: #333;
-  width: 100%;
-  border: solid #333  2px;
-  display: inline;
-  text-align: center; }
-
-.flexDire3 img {
-  width: 50%; }
-
-.flexDire3 p {
-  overflow: hidden;
-  text-align: center;
-  color: #830000;
-  background-color: #fff;
-  padding: 7px 2%;
-  margin: 0% 0%; }
-
-.flexDire3 h3 {
-  overflow: hidden;
-  text-align: center;
-  background-color: #830000;
-  color: #fff;
-  padding: 7px;
-  margin: 0% 0% 0% 0%; }
-
-.flexDire4 {
-  width: 100%;
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between; }
-
-.flexDire4 div {
-  background-color: #333;
-  width: 100%;
-  border: solid #333  2px;
-  display: inline;
-  text-align: center; }
-
-.flexDire4 img {
-  width: 50%; }
-
-.flexDire4 p {
-  overflow: hidden;
-  text-align: center;
-  color: #830000;
-  background-color: #fff;
-  padding: 7px 2%;
-  margin: 0% 0%; }
-
-.flexDire4 h3 {
-  overflow: hidden;
-  text-align: center;
-  background-color: #830000;
-  color: #fff;
-  padding: 7px;
-  margin: 0% 0% 0% 0%; }
-
-.flexDire5 {
-  width: 100%;
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between; }
-
-.flexDire5 div {
-  background-color: #333;
-  width: 100%;
-  border: solid #333  2px;
-  display: inline;
-  text-align: center; }
-
-.flexDire5 img {
-  width: 50%; }
-
-.flexDire5 p {
-  overflow: hidden;
-  text-align: center;
-  color: #830000;
-  background-color: #fff;
-  padding: 7px 2%;
-  margin: 0% 0%; }
-
-.flexDire5 h3 {
-  overflow: hidden;
-  text-align: center;
-  background-color: #830000;
-  color: #fff;
-  padding: 7px;
-  margin: 0% 0% 0% 0%; }
 
 /* ----------------------------------------------
    * Generated by Animista on 2022-6-7 21:36:15
