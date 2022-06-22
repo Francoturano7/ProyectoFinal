@@ -1,5 +1,15 @@
 @import "./variables";
 
+.titulos {
+  background-color:$rojoFranbur ;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  overflow: hidden;
+  margin-bottom: 15px;
+  padding: 10px;
+  
+}
 .lista{width: 100%;
     overflow:hidden;
     display: flex;
