@@ -6,6 +6,61 @@
 body {
   background-color: #d9d9d9; }
 
+/* condicionales */
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 3rem; }
+  h3 {
+    font-size: 2rem; }
+  p {
+    font-size: 1.2rem; } }
+
+/* bucles */
+.rem-1-to-px {
+  font-size: 16px; }
+
+.rem-2-to-px {
+  font-size: 32px; }
+
+.rem-3-to-px {
+  font-size: 48px; }
+
+.rem-4-to-px {
+  font-size: 64px; }
+
+.rem-5-to-px {
+  font-size: 80px; }
+
+.rem-6-to-px {
+  font-size: 96px; }
+
+.rem-7-to-px {
+  font-size: 112px; }
+
+.rem-8-to-px {
+  font-size: 128px; }
+
+.rem-9-to-px {
+  font-size: 144px; }
+
+.rem-10-to-px {
+  font-size: 160px; }
+
+/* mapas */
+.fondo-bordo {
+  background: #830000; }
+
+.fondo-negro {
+  background: black; }
+
+.fondo-gris {
+  background: #333; }
+
+/* mixins */
+.relle {
+  padding: 25px;
+  margin: 30px; }
+
 .navbar-brand img {
   max-width: 100px; }
 
@@ -111,9 +166,7 @@ body {
     color: #fffdfd;
     font-size: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background: #830000;
-    margin: 30px;
-    padding: 25px; }
+    background: #830000; }
   .cabecera__h1:hover {
     font-size: 28px; }
   .cabecera__h1::before {
@@ -243,14 +296,12 @@ a.parahov:hover {
 .menu__desp {
   display: flex;
   justify-content: space-around;
-  background: #333;
   padding: 10px;
   border: 1px solid black; }
 
 .nav-enlace {
   overflow: hidden;
   display: inline-block;
-  background: #333;
   color: #d9d9d9;
   padding: 10px 30px;
   text-transform: uppercase;
@@ -269,7 +320,6 @@ a.parahov:hover {
     margin: 5px; } }
 
 .piedepagina {
-  background: #000;
   font-size: 26px;
   color: #fff;
   text-align: center;
@@ -284,7 +334,7 @@ a.parahov:hover {
   margin-bottom: 15px;
   padding: 10px; }
 
-.lista {
+.lista, .lista-fondorojo, .lista-fondoazul {
   width: 100%;
   overflow: hidden;
   display: flex;
@@ -326,6 +376,12 @@ a.parahov:hover {
     background-color: #fff;
     padding: 7px 2%;
     margin: 0% 0%; }
+
+.lista-fondorojo {
+  background: red; }
+
+.lista-fondoazul {
+  background: blue; }
 
 .nosotros {
   width: 100%; }

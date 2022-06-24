@@ -59,3 +59,11 @@
        margin: 0% 0% ; 
      }
 }
+.lista-fondorojo{
+  @extend .lista;
+  background: red;
+}
+.lista-fondoazul{
+  @extend .lista;
+  background: blue;
+}

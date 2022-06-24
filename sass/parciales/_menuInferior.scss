@@ -3,14 +3,12 @@
 .menu__desp{
 display: flex;
 justify-content: space-around;
-background: #333;
 padding: 10px;
 border: $bordeNegro;
 }
 
 .nav-enlace{ overflow: hidden;
     display: inline-block;
-    background:#333 ;
     color: #d9d9d9;
     padding: 10px 30px;
     text-transform: uppercase;

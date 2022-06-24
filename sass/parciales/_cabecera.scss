@@ -100,8 +100,6 @@
     font-size: 25px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background:$rojoFranbur ;
-    margin: 30px;
-    padding:25px;
     }
     &__h1:hover{
         font-size: 28px;
@@ -113,13 +111,13 @@
       content: " ~ ~";
     }
     &__h3{
-        text-align: center;
-        color: rgba(255, 253, 253, 0.946);
-        font-size: 20px;
+        text-align: map-get($estilos , centro );
+        color: map-get($estilos , claro );
+        font-size: map-get($estilos , tamFuente );
         font-family:Arial, Helvetica, sans-serif;
         background:$rojoFranbur ;
-    margin: 30px;
-    padding:17px;
+        margin:  map-get($estilos , margen );
+        padding: map-get($estilos , pared );
     }
     &__h3:hover{
       font-size: 28px;
@@ -154,4 +152,4 @@
                 filter: blur(0px);
         opacity: 1;
         }}
-    
+  
