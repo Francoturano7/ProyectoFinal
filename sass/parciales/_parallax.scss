@@ -27,3 +27,36 @@
   a.parahov:hover{
     font-size: 20px;
   }
+  @media screen and (max-width:320px)  
+  {
+    .parallax{
+      width: 100%;
+      height:5vh;
+    }
+    .parallax a{
+      margin:15px auto 20px auto;
+    }
+  
+  }
+  @media screen and (max-width:768px)  
+  {
+    .parallax{
+      width: 100%;
+      height:5vh;
+    }
+    .parallax a{
+      margin:15px auto 20px auto;
+    }
+  
+  }
+  @media screen and (min-width:1024px)  
+  {
+    .parallax{
+      width: 100%;
+      height:8vh;
+    }
+    .parallax a{
+      margin:35px auto 15px auto;
+    }
+  
+  }

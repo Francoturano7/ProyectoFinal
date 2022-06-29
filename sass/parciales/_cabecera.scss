@@ -152,4 +152,38 @@
                 filter: blur(0px);
         opacity: 1;
         }}
+        @media screen and (max-width:320px)  
+  {
+    .cabecera__h1{
+      font-size:15px ;
+      padding:7px ;
+      margin: 0 0 10px 0;
+  
+    }
+    
+      .cabecera__h3{
+        font-size:15px ;
+        padding:7px ;
+        margin: 0 0 10px 0;
+    
+      }
+  
+  }
+  @media screen and (max-width:425px)  
+  {
+    .cabecera__h1{
+      font-size:15px ;
+      padding:7px ;
+      margin: 0 0 10px 0;
+  
+    }
+    
+      .cabecera__h3{
+        font-size:15px ;
+        padding:7px ;
+        margin: 0 0 10px 0;
+    
+      }
+  
+  }
   

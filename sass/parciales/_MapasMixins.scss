@@ -1,0 +1,62 @@
+@import "./variables";
+body{
+    background-color: $crema;
+  }
+ /* condicionales */
+ @if $vista == desktop {
+  @media only screen and (min-width: 1024px) {
+  h1{font-size:4rem;}
+  h3{font-size:3rem;}
+  p{font-size:1rem;}
+  }
+  } @else if $vista == mobile {
+  @media only screen and (max-width: 767px) {
+  h1{font-size:3rem;}
+  h3{font-size:2rem;}
+  p{font-size: 1.2rem;}
+  }
+} @else {
+  h1{font-size:34px;}
+  h3{font-size:25px;}
+  p{font-size:20px;}
+}
+
+/* bucles */
+  @for $i from 1 through 10 {
+    .rem-#{$i}-to-px{
+      font-size: 16px *$i;
+    }
+    
+  }
+
+/* mapas */
+$colores: (
+  bordo: #830000,
+  negro: black,
+  gris: #333
+);
+
+ 
+  
+  @each $color, $valor in $colores {
+    .fondo-#{$color} {
+      background: $valor;
+    }
+  }
+
+  $estilos: (
+      claro: rgba(255, 253, 253, 0.946),
+      centro: center,
+      tamFuente: 20px,
+      margen: 30px,
+      pared:17px,
+  );
+/* mixins */
+@mixin medidas ($relleno, $resto){
+  padding: $relleno;
+  margin:$resto;
+}
+.relle{
+  @include medidas(25px,30px )
+}
+

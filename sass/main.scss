@@ -1,14 +1,14 @@
 @import "./parciales/variables";
 @import "./parciales/reset";
-@import "./parciales/body";
-@import "./parciales/navbar";
+@import "./parciales/MapasMixins";
+@import "./parciales/navbarSuperior";
 @import "./parciales/cabecera";
 @import "./parciales/carrusel";
 @import "./parciales/parallax";
 @import "./parciales/main";
 @import "./parciales/servicios";
-@import "./parciales/menuInferior";
+@import "./parciales/navbarInferior";
 @import "./parciales/footer";
-@import "./parciales/lista";
+@import "./parciales/lista+Extend";
 @import "./parciales/nosotros"; 
 
